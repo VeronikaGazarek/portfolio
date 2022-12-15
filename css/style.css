@@ -234,10 +234,10 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .portrait {
-        width: 350px;
-        height: 350px;
+        width: 150px;
+        height: 150px;
     }
 }
 
