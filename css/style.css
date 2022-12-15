@@ -234,7 +234,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .portrait {
         width: 350px;
         height: 350px;
