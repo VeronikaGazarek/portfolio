@@ -1,0 +1,246 @@
+@import url('https://fonts.cdnfonts.com/css/rock-salt');
+@import url('https://fonts.cdnfonts.com/css/unica-one');
+@import url('https://fonts.cdnfonts.com/css/mali');
+
+html {
+    background-color: transparent!important;
+}
+
+body {
+    background-image: url("../img/hhholographicbubbles.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.portrait {
+    width: 600px;
+    height: 600px;
+}
+
+.subtitle {
+    padding-left: 500px;
+    border-radius: 4rem;
+    text-shadow:  rgb(133, 77, 189) 2px 2px;
+    font-family: 'Rock Salt', sans-serif;
+    margin-top: -3rem!important;
+
+}
+
+.title {
+    text-shadow: #1b39b6 2px 2px;
+    background: #f48dfa;
+    margin:0% 30% 0% 30%;
+    border-radius: 4rem;
+    border: #f48dfa 10px solid;
+    padding: 2%;
+    font-family: 'Mali', sans-serif;
+}
+.collageimg {
+    border: rgba(152, 115, 217, 0.75) 6px solid;
+    border-radius: 1rem;
+
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10%;
+}
+
+.introtext {
+    color: #4c4973;
+}
+
+.sparkle1 {
+    max-width: 10%;
+    position: absolute;
+    right: 7%;
+}
+
+.sparkle2 {
+    max-width: 7%;
+    position: absolute;
+    right: 30%;
+    top: 60%;
+}
+
+.artworkShowcase {
+    margin: 0 10% 0 10%;
+}
+
+.skillsetimg {
+    max-width: 60%;
+    padding: 3%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.gallery-column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.gallery-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.lastColumnImg {
+    margin: 4px;
+}
+
+.hiddenPic {
+   display: none
+}
+
+.skillsection {
+    display: flex;
+    justify-content: center;
+}
+
+.skillsetdiv {
+    background-color:#d5eaff;
+    border-radius: 1rem;
+    padding: 1em;
+    border: #a9cffa 7px solid;
+    margin: 1%;
+}
+
+.skilltext, h3 {
+    color: #4c4973;
+}
+
+h3 {
+    background: rgba(255, 255, 255, 0.45);
+    padding: 0;
+}
+
+h2 {
+    margin-left: 10%;
+}
+
+.pDiv {
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: 25px;
+    padding: 3%;
+    margin: 0% 5% 0% 5%;
+    width: 55%;
+
+}
+
+.contacttext {
+    background: #df95e8;
+    border-radius: 25px;
+    margin: 1%;
+
+}
+
+
+li:before {
+    content: url("/img/Pink-Star-Vector-drawing2.png");
+    max-width: 10%;
+}
+
+h1:before {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: rgb(133, 77, 189) solid;
+    border-bottom: 50px solid transparent;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: rgba(93, 72, 168, 0.6);
+    padding:0 1% 0 1%;
+    border-radius: 1rem;
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .gallery-column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .hiddenPic {
+        display: block;
+    }
+
+    .lastColumnRow {
+        display: flex;
+        flex-direction: row;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery-column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .lastColumnRow {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .artworkShowcase {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pDiv {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+
+    .title {
+   /*<     white-space: nowrap;>*/
+        margin: 0;
+    }
+
+    .subtitle {
+        padding-left: 0;
+    }
+}
+
+@-moz-document url-prefix() {
+#last {
+    max-width: 100%;
+}
+}
+
+
+
+
+/*copyright datenschutz impressum back to top for mobile*/
