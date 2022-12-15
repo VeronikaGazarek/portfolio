@@ -234,10 +234,17 @@ a:hover {
     }
 }
 
-@-moz-document url-prefix() {
-#last {
-    max-width: 100%;
+@media screen and (max-width: 500px) {
+    .portrait {
+        width: 450px;
+        height: 450px;
+    }
 }
+
+@-moz-document url-prefix() {
+    #last {
+        max-width: 100%;
+    }
 }
 
 
