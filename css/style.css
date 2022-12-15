@@ -143,7 +143,7 @@ h2 {
 
 
 li:before {
-    content: url("/img/Pink-Star-Vector-drawing2.png");
+    content: url("/img/favicon.png");
     max-width: 10%;
 }
 
@@ -228,8 +228,11 @@ a:hover {
 @media screen and (max-width: 780px) {
 
     .title {
-
         margin: 5px 0 5px 0;
+    }
+
+    .title:not(:last-child) {
+        margin-bottom: -1rem!important;
     }
 
     .subtitle {
