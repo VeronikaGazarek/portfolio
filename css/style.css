@@ -155,16 +155,57 @@ h1:before {
     border-bottom: 50px solid transparent;
 }
 
-a, a:visited {
+.footer-link, .footer-link:visited {
     text-decoration: none;
     color: white;
 }
 
-a:hover {
+.footer-link:hover {
     background-color: rgba(93, 72, 168, 0.6);
     padding:0 1% 0 1%;
     border-radius: 1rem;
+}
 
+.mockupimg {
+    max-width: 27%;
+    margin: 0.5em;
+}
+
+.mockupDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.btn {
+    background-color:  rgb(133, 77, 189);
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(78, 29, 124);
+    border-radius: 2rem;
+    padding: 12px 30px;
+}
+
+.downloadDiv {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 1000px) {
+.mockupDiv {
+    display: flex;
+    flex-direction: column;
+}
+    .mockupimg {
+        max-width: 70%;
+        align-self: center;
+    }
 }
 
 
@@ -238,6 +279,15 @@ a:hover {
     .subtitle {
         padding-left: 0;
         margin-top: 4px!important;
+    }
+
+    .mockupDiv {
+        display: flex;
+        flex-direction: column;
+    }
+    .mockupimg {
+        max-width: 90%;
+        align-self: center;
     }
 }
 
