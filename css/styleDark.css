@@ -6,8 +6,12 @@
     display: none;
 }
 
+html {
+    background-color: transparent!important;
+}
+
 button#styleDark,  button#styleAnim, button#style{
-    background-color: rgb(152, 115, 217);
+    background-color:  rgb(0, 0, 73);
     border-radius: 2rem;
     border: none;
     color: white;
@@ -16,13 +20,9 @@ button#styleDark,  button#styleAnim, button#style{
     font-size: 1em;
 }
 
-html {
-    background-color: transparent!important;
-}
-
 
 body {
-    background-image: url("../img/hhholographicbubbles.webp");
+    background-image: url("../img/Mass Circles.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: transparent;
@@ -36,22 +36,22 @@ body {
 .subtitle {
     padding-left: 500px;
     border-radius: 4rem;
-    text-shadow:  rgb(133, 77, 189) 2px 2px;
+    text-shadow: rgb(0, 0, 73) 2px 2px;
     font-family: 'Rock Salt', sans-serif;
     margin-top: -3rem!important;
 
 }
 
 .title {
-    text-shadow: #1b39b6 2px 2px;
-    background: #f48dfa;
+    text-shadow: rgb(0, 0, 73) 2px 2px;
+    background: #085e98;
     margin:0% 30% 0% 30%;
     border-radius: 4rem;
     padding: 2%;
     font-family: 'Mali', sans-serif;
 }
 .collageimg {
-    border: rgba(152, 115, 217, 0.75) 6px solid;
+    border:  rgb(0, 0, 73) 6px solid;
     border-radius: 1rem;
 
 }
@@ -62,7 +62,7 @@ body {
 }
 
 .introtext {
-    color: #4c4973;
+    color: #c4c0e3;
 }
 
 .sparkle1 {
@@ -110,7 +110,7 @@ body {
 }
 
 .hiddenPic {
-   display: none
+    display: none
 }
 
 .skillsection {
@@ -119,19 +119,19 @@ body {
 }
 
 .skillsetdiv {
-    background-color:#d5eaff;
     border-radius: 1rem;
     padding: 1em;
-    border: #a9cffa 7px solid;
+    border:  rgb(0, 0, 73) 7px solid;
     margin: 1%;
+    background-color: rgb(0, 0, 73);
 }
 
 .skilltext, h3 {
-    color: #4c4973;
+    color: #c4c0e3;
 }
 
 h3 {
-    background: rgba(255, 255, 255, 0.45);
+    background: rgb(0, 0, 73);
     padding: 0;
 }
 
@@ -140,7 +140,7 @@ h2 {
 }
 
 .pDiv {
-    background: rgba(255, 255, 255, 0.45);
+    background: rgb(0, 0, 73);
     border-radius: 25px;
     padding: 3%;
     margin: 0% 5% 0% 5%;
@@ -149,18 +149,10 @@ h2 {
 }
 
 .contacttext {
-    background: #df95e8;
+    background: rgb(45, 45, 124);
     border-radius: 25px;
     margin: 1%;
 
-}
-
-.contactP {
-    color: white;
-
-}
-.copyright {
-    color: white;
 }
 
 
@@ -201,17 +193,17 @@ h1:before {
 }
 
 .btn {
-    background-color:  rgb(133, 77, 189);
+    background: rgb(45, 45, 124);
     border-radius: 2rem;
     border: none;
-    color: white;
+    color: #c4c0e3;
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
 }
 
 .btn:hover {
-    background-color: rgb(78, 29, 124);
+    background-color: rgb(68, 133, 178);
     border-radius: 2rem;
     padding: 12px 30px;
 }
@@ -227,10 +219,10 @@ h1:before {
 }
 
 @media screen and (max-width: 1000px) {
-.mockupDiv {
-    display: flex;
-    flex-direction: column;
-}
+    .mockupDiv {
+        display: flex;
+        flex-direction: column;
+    }
     .mockupimg {
         max-width: 70%;
         align-self: center;
@@ -333,3 +325,8 @@ h1:before {
         max-width: 100%;
     }
 }
+
+
+
+
+/*copyright datenschutz impressum back to top for mobile*/
