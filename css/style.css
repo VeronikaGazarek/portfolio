@@ -6,16 +6,6 @@
     display: none;
 }*/
 
-button#styleDark,  button#styleAnim, button#style{
-    background-color: rgb(152, 115, 217);
-    border-radius: 2rem;
-    border: none;
-    color: white;
-    padding: 0.5% 2% 0.5% 2%;
-    cursor: pointer;
-    font-size: 1em;
-}
-
 html {
     background-color: transparent!important;
 }
@@ -27,6 +17,18 @@ body {
     background-repeat: no-repeat;
     background-color: transparent;
 }
+
+
+button#styleDark,  button#styleAnim, button#style{
+    background-color: rgb(152, 115, 217);
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    padding: 0.5% 2% 0.5% 2%;
+    cursor: pointer;
+    font-size: 1em;
+}
+
 
 .portrait {
     width: 600px;
