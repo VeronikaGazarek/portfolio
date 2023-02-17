@@ -242,11 +242,6 @@ h1:before {
     #btn-group {
         margin-bottom: 10%;
     }
-
-    button.clickButton {
-        padding: 1.5%!important;
-
-    }
 }
 
 
@@ -280,6 +275,11 @@ h1:before {
     .lastColumnRow {
         display: flex;
         flex-direction: column;
+
+    }
+
+    button.clickButton {
+        padding: 1.5%!important;
 
     }
 }

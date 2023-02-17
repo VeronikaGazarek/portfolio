@@ -405,11 +405,6 @@ div .dot {
     #btn-group {
         margin-bottom: 10%;
     }
-
-    button.clickButton {
-        padding: 1.5%!important;
-
-    }
 }
 
 
@@ -443,6 +438,11 @@ div .dot {
     .lastColumnRow {
         display: flex;
         flex-direction: column;
+
+    }
+
+    button.clickButton {
+        padding: 1.5%!important;
 
     }
 }
