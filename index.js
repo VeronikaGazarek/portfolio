@@ -7,6 +7,12 @@ function changeMode(event){
         let pathString = `./css/${event.target.id}.css`
         console.log(pathString)
         styleTag.setAttribute("href", pathString)
-    }/* else if (event.target.tagName === "BUTTON" && pathString === `./css/styleAnim.css`) {
-       document.getElementById('bubbles').style.display = 'block';}*/
+    }
+    if(event.srcElement.id === "styleAnim"){
+        document.getElementById('bubbles').style.display = 'block';
+    }
+    else {
+        document.getElementById('bubbles').style.display = 'none';
+    }
 }
+

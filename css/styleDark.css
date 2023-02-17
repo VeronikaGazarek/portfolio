@@ -2,9 +2,10 @@
 @import url('https://fonts.cdnfonts.com/css/unica-one');
 @import url('https://fonts.cdnfonts.com/css/mali');
 
-/*#bubbles {
+#bubbles {
     display: none;
-}*/
+}
+
 
 html {
     background-color: transparent!important;
@@ -226,6 +227,10 @@ h1:before {
     .mockupimg {
         max-width: 70%;
         align-self: center;
+    }
+
+    #btn-group {
+        margin-bottom: 10%;
     }
 }
 
