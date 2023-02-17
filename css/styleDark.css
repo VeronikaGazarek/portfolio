@@ -271,6 +271,8 @@ h1:before {
         padding: 1.5%!important;
 
     }
+
+
 }
 
 @media screen and (max-width: 1300px) {
@@ -308,7 +310,7 @@ h1:before {
 
     .subtitle {
         padding-left: 0;
-        margin-top: 4px!important;
+        margin-top: 15px!important;
     }
 
     .mockupDiv {
