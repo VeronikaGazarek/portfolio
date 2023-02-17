@@ -242,7 +242,7 @@ h1:before {
     }
 
     .hiddenPic {
-        display: block;
+        display: none;
     }
 
     .lastColumnRow {

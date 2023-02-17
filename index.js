@@ -11,8 +11,8 @@ function changeMode(event){
     if(event.srcElement.id === "styleAnim"){
         document.getElementById('bubbles').style.display = 'block';
     }
-    else {
-        document.getElementById('bubbles').style.display = 'none';
-    }
+    // else {
+    //     document.getElementById('bubbles').style.display = 'none';
+    // }
 }
 
