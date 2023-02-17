@@ -242,6 +242,11 @@ h1:before {
     #btn-group {
         margin-bottom: 10%;
     }
+
+    button.clickButton {
+        padding: 1.5%!important;
+
+    }
 }
 
 

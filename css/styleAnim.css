@@ -405,6 +405,11 @@ div .dot {
     #btn-group {
         margin-bottom: 10%;
     }
+
+    button.clickButton {
+        padding: 1.5%!important;
+
+    }
 }
 
 
